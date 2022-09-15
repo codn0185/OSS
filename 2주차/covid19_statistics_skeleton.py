@@ -15,8 +15,8 @@ for n in n_people:
 sum_covid  = 0 # TODO: The total number of new cases
 for n in n_covid:
     sum_covid += n
-scale = 1000000
-norm_covid = normalize_data(n_covid, n_people, 1000000) # The new cases per 1 million people
+scale = 10**6
+norm_covid = normalize_data(n_covid, n_people, scale) # The new cases per 1 million people
 
 # Print population by region
 print('### Korean Population by Region')
@@ -27,9 +27,17 @@ print('| ------ | ---------- | --------- |')
 for idx, pop in enumerate(n_people):
     ratio = 0 # TODO: The ratio of new cases to the total
     ratio = n_covid[idx] / pop * 100
-    print('| %s | %d | %.1f |' % (regions[idx], pop, ratio))
-print()
+    print('| %-9s | %-8d | %-8.5f |' % (regions[idx], pop, ratio))
+    
+print('\n\n')
 
 # TODO: Print COVID-19 new cases by region
 print('### Korean COVID-19 New Cases by Region')
 print('* Total COVID-19 new cases:', sum_covid)
+print() # Print an empty line
+print('| Region | COVID-19 new cases | Ratio (%) |')
+print('| ------ | ------------------ | --------- |')
+for idx, case in enumerate(n_covid):
+    ratio = case / n_people[idx] * 100
+    print('| %-9s | %-16d | %-8.5f |' % (regions[idx], case, ratio))
+print()
