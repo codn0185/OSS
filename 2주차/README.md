@@ -2,4 +2,4 @@
 
 <h3>"covid19_statistics.py"의 코드와 결과 제출</h3>
   <li>코드: # [covid19_statistics_skeleton.py](#./covid19_statistics_skeleton.py)</li>
-  <li>결과: # [covid19_statistics.md](#covid19_statistics.md)</li>
+  <li>결과: # [결과](#covid19_statistics.md)</li>
