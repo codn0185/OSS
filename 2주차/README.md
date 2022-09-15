@@ -3,4 +3,4 @@
 <h3>"covid19_statistics.py"의 코드와 결과 제출</h3>
   <li>코드: [covid19_statistics_skeleton.py](covid19_statistics_skeleton.py)</li>
   <li>결과: [결과](#covid19_statistics.md)</li>
-  <li>https://github.com/codn0185/OSS/blob/3d47fa0032f8a53bebbb7fab0da4728b4e76bd31/2%EC%A3%BC%EC%B0%A8/covid19_statistics_skeleton.py</li>
+  <li>covid19_statistics_skeleton.py</li>
