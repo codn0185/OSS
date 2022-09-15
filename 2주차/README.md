@@ -4,3 +4,4 @@
   <li>코드: [covid19_statistics_skeleton.py](covid19_statistics_skeleton.py)</li>
   <li>결과: [결과](#covid19_statistics.md)</li>
   <li><covid19_statistics_skeleton.py></li>
+[링크](https://github.com/codn0185/OSS/blob/main/2%EC%A3%BC%EC%B0%A8/covid19_statistics.md)
