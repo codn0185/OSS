@@ -8,8 +8,7 @@ def read_data(filename):
 
 def add_weighted_average(data, weight):
     for row in data:
-        row.append(row[0] * weight[0] + row[1] * weight[1])   # TODO
-    return data
+        row.append(row[0] * weight[0] + row[1] * weight[1]) # TODO
 
 def analyze_data(data):
     mean = sum(data) / len(data) # TODO
@@ -21,7 +20,7 @@ def analyze_data(data):
 if __name__ == '__main__':
     data = read_data('data/class_score_en.csv')
     if data and len(data[0]) == 2: # Check 'data' is valid
-        data = add_weighted_average(data, [40/125, 60/100])
+        add_weighted_average(data, [40/125, 60/100])
         if len(data[0]) == 3:      # Check 'data' is valid
             print('### Individual Score')
             print()
