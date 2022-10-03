@@ -44,4 +44,4 @@ def display_score(self):
         self.drawer_score.write(f'Score: {score}', align="center", font=("Consolas", 22, "bold"))
 ```
 * **설명**  
-self.is_catched()가 True를 반환할 때마다 self.count가 1씩 증가하며 self.count_goal에 도달하면 점수(self.score)를 1추가하고 다시 self.count를 0으로 초기화를 반복한다. 즉 self.count_goal x self.ai_timer_msec (5 x 100ms = 500ms) 동안 연속해서 runner를 잡은 상태일 때마다 점수가 1씩 추가된다. 또한 남은 시간(self.timer)이 0 초과일 때만 작동하므로 남는 시간이 0 이하면 점수는 고정된다.
+self.is_catched()가 True를 반환할 때마다 self.count가 1씩 증가하며 self.count_goal에 도달하면 점수(self.score)를 1추가하고 다시 self.count를 0으로 초기화를 반복한다. 즉 self.count_goal x self.ai_timer_msec (5 x 100ms = 500ms) 동안 연속해서 chaser가 runner를 잡은 상태일 때마다 점수가 1씩 추가된다. 또한 남은 시간(self.timer)이 0 초과일 때만 작동하므로 남는 시간이 0 이하면 점수는 고정된다.
