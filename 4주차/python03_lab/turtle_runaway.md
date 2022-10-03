@@ -85,7 +85,7 @@ def run_ai(self, runner, chaser): # TODO: 더 똑똑한 인공지능 만들기
 ![image](https://user-images.githubusercontent.com/113341200/193535937-63e86cbd-36f3-484f-bbd1-692495e6832c.png)
 ![image](https://user-images.githubusercontent.com/113341200/193535981-9239ef3a-cc96-4dfe-8aef-4d4c8a73969c.png)
 -->
-거리가 250보다 멀어 랜덤하게 움직여서 오히려 chaser 쪽으로 오는 runner  
+거리가 250보다 멀어서 랜덤하게 움직여 오히려 chaser 쪽으로 오는 runner  
 <img src="https://user-images.githubusercontent.com/113341200/193535937-63e86cbd-36f3-484f-bbd1-692495e6832c.png" width="600" height="400"/>  
 거리가 250보다 가까워 chaser 로부터 도망가는 runner  
 <img src="https://user-images.githubusercontent.com/113341200/193535981-9239ef3a-cc96-4dfe-8aef-4d4c8a73969c.png" width="600" height="400"/>
