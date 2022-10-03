@@ -23,9 +23,9 @@ def start(self, ...): 에서 시작 시간(self.timer_start = time.time())과 �
 ![image](https://user-images.githubusercontent.com/113341200/193531986-ab8fee60-9b81-48f0-9b0a-15383404e447.png)
 -->
 방금 시작하여 30초와 얼마 차이나지 않는다.  
-<img src="https://user-images.githubusercontent.com/113341200/193529380-c99e8eab-c22e-4799-bb76-9fa965f38f11.png" width="450" height="300"/>  
+<img src="https://user-images.githubusercontent.com/113341200/193529380-c99e8eab-c22e-4799-bb76-9fa965f38f11.png" width="600" height="400"/>  
 시작한지 30초가 지나서 Time out이 대신 출력된다.  
-<img src="https://user-images.githubusercontent.com/113341200/193531986-ab8fee60-9b81-48f0-9b0a-15383404e447.png" width="450" height="300"/>
+<img src="https://user-images.githubusercontent.com/113341200/193531986-ab8fee60-9b81-48f0-9b0a-15383404e447.png" width="600" height="400"/>
 
 
 - - -
@@ -53,9 +53,9 @@ self.is_catched()가 True를 반환할 때마다 self.count가 1씩 증가하며
 ![image](https://user-images.githubusercontent.com/113341200/193535281-a144c0e6-9f3a-4224-9a53-41e92a455336.png)
 -->
 Time out이 되기 전에 점수 10점을 만들었다.  
-<img src="https://user-images.githubusercontent.com/113341200/193535181-4fbb8eb9-f365-4d59-a15f-38d49fd35d71.png" width="450" height="300"/>  
+<img src="https://user-images.githubusercontent.com/113341200/193535181-4fbb8eb9-f365-4d59-a15f-38d49fd35d71.png" width="600" height="400"/>  
 Time out이 된 후에는 아무리 잡아도 점수는 올라가지 않는다.  
-<img src="https://user-images.githubusercontent.com/113341200/193535281-a144c0e6-9f3a-4224-9a53-41e92a455336.png" width="450" height="300"/>
+<img src="https://user-images.githubusercontent.com/113341200/193535281-a144c0e6-9f3a-4224-9a53-41e92a455336.png" width="600" height="400"/>
 
 
 - - -
@@ -86,6 +86,6 @@ def run_ai(self, runner, chaser): # TODO: 더 똑똑한 인공지능 만들기
 ![image](https://user-images.githubusercontent.com/113341200/193535981-9239ef3a-cc96-4dfe-8aef-4d4c8a73969c.png)
 -->
 거리가 250보다 멀어 오히려 chaser 쪽으로 오는 runner  
-<img src="https://user-images.githubusercontent.com/113341200/193535937-63e86cbd-36f3-484f-bbd1-692495e6832c.png" width="450" height="300"/>  
+<img src="https://user-images.githubusercontent.com/113341200/193535937-63e86cbd-36f3-484f-bbd1-692495e6832c.png" width="600" height="400"/>  
 거리가 250보다 가까워 chaser 로부터 도망가는 runner  
-<img src="https://user-images.githubusercontent.com/113341200/193535981-9239ef3a-cc96-4dfe-8aef-4d4c8a73969c.png" width="450" height="300"/>
+<img src="https://user-images.githubusercontent.com/113341200/193535981-9239ef3a-cc96-4dfe-8aef-4d4c8a73969c.png" width="600" height="400"/>
