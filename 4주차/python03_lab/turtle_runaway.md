@@ -23,6 +23,7 @@ def start(self, ...): 에서 시작 시간(self.timer_start = time.time())과 �
 <img src="https://user-images.githubusercontent.com/113341200/193529380-c99e8eab-c22e-4799-bb76-9fa965f38f11.png" width="450" height="300"/>
 <img src="https://user-images.githubusercontent.com/113341200/193529446-421b1a17-10e2-48ff-a856-5957767cbdb7.png" width="450" height="300"/>
 
+### 점수 구현
 ```cpp
 def display_score(self):
         if self.timer > 0:
@@ -39,3 +40,4 @@ def display_score(self):
         self.drawer_score.setpos(300, 300)
         self.drawer_score.write(f'Score: {score}', align="center", font=("Consolas", 22, "bold"))
 ```
+* **설명**  
