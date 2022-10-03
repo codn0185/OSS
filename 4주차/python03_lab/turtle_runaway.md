@@ -2,7 +2,7 @@
 
 ## turtle_runaway.py 및 turtle_runaway.md 작성
 
-### 타이머
+### 타이머 구현
 ```cpp
 def display_timer(self):
         self.drawer_timer.undo()
