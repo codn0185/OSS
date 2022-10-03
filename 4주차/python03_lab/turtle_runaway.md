@@ -14,7 +14,7 @@ def display_timer(self):
         else:
             self.drawer_timer.write('Time out!', align="center", font=("Consolas", 32, "bold"))
 ```
-* 설명
+* 설명  
 def start(self, ...): 에서 시작 시간과 제한 시간을 정해서 현재 시간에서 시작 시간을 뺸 것을 제한 시간에서 빼서 남는 시간을 구하고, 제한 시간이 
 
 ```cpp
