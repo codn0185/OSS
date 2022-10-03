@@ -15,7 +15,7 @@ def display_timer(self):
             self.drawer_timer.write('Time out!', align="center", font=("Consolas", 32, "bold"))
 ```
 * 설명  
-def start(self, ...): 에서 시작 시간과 제한 시간을 정해서 현재 시간에서 시작 시간을 뺸 것을 제한 시간에서 빼서 남는 시간을 구하고, 제한 시간이 
+def start(self, ...): 에서 시작 시간(self.timer_start = time.time())과 제한 시간(self.timer_limit = timer_limit)을 정한 후 이를 통해 남는 시간(self.timer = self.timer_limit - (time.time() - self.timer_start))을 구한다. 만약 남는 시간이 0보다 크다면 화면에 남는 시간을 출력하고, 반대로 0 이하하면 "Timeout"을 출력한다. 
 
 ```cpp
 def display_score(self):
