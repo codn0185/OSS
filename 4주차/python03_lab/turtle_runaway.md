@@ -48,5 +48,24 @@ self.is_catched()가 True를 반환할 때마다 self.count가 1씩 증가하며
 
 - - -
 ### 발전된 runner AI 구현
+```cpp
+def run_ai(self, runner, chaser): # TODO: 더 똑똑한 인공지능 만들기
+        runner_pos = runner.pos()
+        runner_heading = runner.heading()
+        chaser_pos = chaser.pos()
+        chaser_heading = chaser.heading()
+
+        if runner.distance(chaser_pos) > 250.0:
+            mode = random.randint(0, 2)
+            if mode == 0:
+                self.forward(self.step_move)
+            elif mode == 1:
+                self.left(self.step_turn)
+            elif mode == 2:
+                self.right(self.step_turn)
+        else:
+            self.setheading(-random.randint(int(runner.towards(chaser_pos)) - 20, int(runner.towards(chaser_pos)) + 20)) # chaser의 반대 각도의 -20도 ~ +20도의 범위로 회전
+            self.forward(self.step_move)
+```
 * 설명  
 
