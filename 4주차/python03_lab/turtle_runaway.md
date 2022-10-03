@@ -21,9 +21,9 @@ def start(self, ...): 에서 시작 시간(self.timer_start = time.time())과 �
 ![image](https://user-images.githubusercontent.com/113341200/193529380-c99e8eab-c22e-4799-bb76-9fa965f38f11.png)
 ![image](https://user-images.githubusercontent.com/113341200/193531986-ab8fee60-9b81-48f0-9b0a-15383404e447.png)
 -->
-Timeout이 되기 전에 점수 10점을 만들었다.  
+방금 시작하여 30초와 얼마 차이나지 않는다.  
 <img src="https://user-images.githubusercontent.com/113341200/193529380-c99e8eab-c22e-4799-bb76-9fa965f38f11.png" width="450" height="300"/>  
-Timeout이 된 후에는 아무리 잡아도 점수는 올라가지 않는다.  
+시작한지 30초가 지나서 Timeout이 대신 출력된다.  
 <img src="https://user-images.githubusercontent.com/113341200/193531986-ab8fee60-9b81-48f0-9b0a-15383404e447.png" width="450" height="300"/>
 
 
