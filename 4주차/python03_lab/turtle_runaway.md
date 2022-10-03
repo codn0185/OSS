@@ -68,4 +68,4 @@ def run_ai(self, runner, chaser): # TODO: 더 똑똑한 인공지능 만들기
             self.forward(self.step_move)
 ```
 * 설명  
-
+기존에 받던 상대측의 위치와 방향 대신 자신(runner)과 상대(chaser)의 객체를 받는다. runner.distance(chaser_pos)를 통해 상대와 자신과의 거리가 250 이상이면 기존과 같은 방식의 완전 랜덤으로 움직이는 대신 상대가 어느정도 가까워지면(거리 250이하) self.setheading(-random.randint(int(runner.towards(chaser_pos)) - 20, int(runner.towards(chaser_pos)) + 20))를 통해 상대가 있는 반대 방향의 -20도에서 +20도 범위 내를 바라보고 self.step_move만큼 이동한다. 즉, 더 효과적으로 도망칠 수 있다.
